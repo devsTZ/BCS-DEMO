@@ -1,0 +1,37 @@
+.container{
+    position: fixed;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+
+}
+form{
+    width: 100%;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+.btn-save{
+    width: 20%;
+    padding: 10px;
+    background-color: royalblue;
+    border: none;
+}
+.footer{
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: royalblue;
+    width: 100%;
+    right: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+}

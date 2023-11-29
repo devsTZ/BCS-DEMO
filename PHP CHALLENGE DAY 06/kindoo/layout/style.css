@@ -1,0 +1,98 @@
+.header-row{
+    /* background-color: #2b6777; */
+    background-color: #0c0a22;
+    /* margin-bottom: 10px; */
+    color: #ffffff;
+}
+
+
+.footer-container {
+    background-color: #cef;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .newsletter {
+    width: 100%;
+    padding: 2rem;
+    background-color: #8df;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .newsletter div {
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .newsletter div input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    
+  }
+  
+  .newsletter div i {
+    cursor: pointer;
+    background-color: #0081FE;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .social-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-links .link {
+    padding: 2rem 10px;
+    color: #040f087a;
+  }
+  
+  .social-links .link a {
+    color: #000;
+  }
+  
+  .social-links .link a:hover {
+    color: #00f;
+  }
+  
+  .copyright {
+    padding: 0 0 2rem;
+    font-size: 10px;
+  }
+  
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+ }
+
